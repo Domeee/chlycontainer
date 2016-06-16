@@ -1,16 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.22823.1
+VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6575EE50-092E-4492-A1A4-C246FAC6149D}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{35651A49-EAAF-4858-800B-CAF27BDBD7BF}"
-	ProjectSection(SolutionItems) = preProject
-		global.json = global.json
-	EndProjectSection
-EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ChlyContainer", "src\ChlyContainer\ChlyContainer.xproj", "{DBE9B134-DBAC-48C7-8908-4208EEE45957}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChlyContainer", "ChlyContainer\ChlyContainer.csproj", "{05FC7424-1EE2-4291-9F72-F4EDEFD596E1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,15 +11,12 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DBE9B134-DBAC-48C7-8908-4208EEE45957}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DBE9B134-DBAC-48C7-8908-4208EEE45957}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DBE9B134-DBAC-48C7-8908-4208EEE45957}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DBE9B134-DBAC-48C7-8908-4208EEE45957}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05FC7424-1EE2-4291-9F72-F4EDEFD596E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05FC7424-1EE2-4291-9F72-F4EDEFD596E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05FC7424-1EE2-4291-9F72-F4EDEFD596E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05FC7424-1EE2-4291-9F72-F4EDEFD596E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{DBE9B134-DBAC-48C7-8908-4208EEE45957} = {6575EE50-092E-4492-A1A4-C246FAC6149D}
 	EndGlobalSection
 EndGlobal
